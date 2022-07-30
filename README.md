@@ -15,6 +15,14 @@ Edit data.json file following the example. Add separators used for a data format
             "ids":{"id1":{} ,"id2":{}, "id3":{}},
             "sensors":{"s1":{}, "s2":{}, "s3":{}}
         },
+
+    "f3": {
+            "sep":[","],
+            "ids":{"id1":{} ,"id2":{}},
+            "sensors":{"s1":{}, "s2":{}}
+        }
+            
+            
 }
 ```
 
