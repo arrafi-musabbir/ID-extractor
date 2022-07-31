@@ -6,16 +6,16 @@
         },
     
     "Dfmt8020002": {
-            "sep":[","," "],
-            "ids":{"id1":{} ,"id2":{}, "id3":{}},
-            "sensors":{"s1":{}, "s2":{}, "s3":{}}
-        },
+        "sep":[":"," ",","],
+        "ids":{"space1":{}, "gateway_term":{} ,"gateway":{}, "space2":{}},
+        "sensors":{"status":{}}
+    },
 
     "Dfmt8020003": {
-            "sep":[","],
-            "ids":{"id1":{} ,"id2":{}},
-            "sensors":{"s1":{}, "s2":{}}
-        }
+        "sep":[":"," ",","],
+        "ids":{"gateway_term":{} ,"gateway":{}, "space1":{}},
+        "sensors":{"status":{}}
+    }
             
             
 }
