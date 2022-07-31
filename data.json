@@ -1,17 +1,17 @@
 {
-    "f1": {
-            "sep":[","," ","!","@"],
-            "ids":{"id1":{} ,"id2":{}},
-            "sensors":{"s1":{}, "s2":{}, "s3":{}}
+    "Dfmt8020001": {
+            "sep":[":"," ",","],
+            "ids":{"gateway_term":{} ,"gateway":{}, "space1":{}, "device_term":{}, "device":{}, "space2":{}, "analog_term":{}, "space3":{}},
+            "sensors":{"pH":{}, "tds":{}, "bat":{}, "temperature":{}}
         },
     
-    "f2": {
+    "Dfmt8020002": {
             "sep":[","," "],
             "ids":{"id1":{} ,"id2":{}, "id3":{}},
             "sensors":{"s1":{}, "s2":{}, "s3":{}}
         },
 
-    "f3": {
+    "Dfmt8020003": {
             "sep":[","],
             "ids":{"id1":{} ,"id2":{}},
             "sensors":{"s1":{}, "s2":{}}

@@ -43,23 +43,31 @@ class extractor:
         return self.sensors  
 
 
-        
-### example data
-data1 = 'abcd,erefe@234424 45235!935235'
-data2 = 'abcd,erefe,sigrhjs 234424 45235 935235'
-data3 = 'abcd,erefe,234424,45235'
+if __name__=="__main__":
+    ### example data
+    data1 = 'GID:8020002203220000, DID:802102206290004, Analog: 1000 142 0 476'
+    # data2 = 'abcd,erefe,sigrhjs 234424 45235 935235'
+    # data3 = 'abcd,erefe,234424,45235'
 
-### data format
-dfmt1 = 'f1'
-dfmt2 = 'f2'
-dfmt3 = 'f3'
+    ### data format
+    dfmt1 = 'Dfmt8020001'
+    # dfmt2 = 'f2'
+    # dfmt3 = 'f3'
 
-### creating object with various data format
-o1 = extractor(dfmt1)
-o2 = extractor(dfmt2)
-o3 = extractor(dfmt3)
+    ### creating object with various data format
+    o1 = extractor(dfmt1)
+    # o2 = extractor(dfmt2)
+    # o3 = extractor(dfmt3)
 
-### will return dictionary as defined in file.json
-print(o1.__extract__(data1))
-print(o2.__extract__(data2))
-print(o3.__extract__(data3))
+    ### will return dictionary as defined in file.json
+    dict1 = o1.__extract__(data1)
+    
+    print(dict1["gateway"])
+    print(dict1["device"])
+    print(dict1["pH"])
+    print(dict1["tds"])
+    print(dict1["bat"])
+    print(dict1["temperature"])
+    
+    # print(o2.__extract__(data2))
+    # print(o3.__extract__(data3))
