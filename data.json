@@ -1,20 +1,17 @@
 {
     "Dfmt8020001": {
             "sep":[":"," ",","],
-            "ids":{"gateway_term":{} ,"gateway":{}, "space1":{}, "device_term":{}, "device":{}, "space2":{}, "analog_term":{}, "space3":{}},
-            "sensors":{"pH":{}, "tds":{}, "bat":{}, "temperature":{}}
+            "fields":{"gateway_term":{} ,"gateway":{}, "space1":{}, "device_term":{}, "device":{}, "space2":{}, "analog_term":{}, "space3":{}, "pH":{}, "tds":{}, "bat":{}, "temperature":{}}
         },
     
     "Dfmt8020002": {
         "sep":[":"," ",","],
-        "ids":{"space1":{}, "gateway_term":{} ,"gateway":{}, "space2":{}},
-        "sensors":{"status":{}}
+        "fields":{"space1":{}, "gateway_term":{} ,"gateway":{}, "space2":{}, "status":{}}
     },
 
     "Dfmt8020003": {
         "sep":[":"," ",","],
-        "ids":{"gateway_term":{} ,"gateway":{}, "space1":{}},
-        "sensors":{"status":{}}
+        "fields":{"gateway_term":{} ,"gateway":{}, "space1":{}, "status":{}}
     }
             
             
