@@ -50,4 +50,3 @@ print(o1.__extract__(data1))
 print(o2.__extract__(data2))
 print(o3.__extract__(data3))
 
-```

@@ -1,21 +1,18 @@
 {
-    "f1": {
-            "sep":[","," ","!","@"],
-            "ids":{"id1":{} ,"id2":{}},
-            "sensors":{"s1":{}, "s2":{}, "s3":{}}
+    "Dfmt8020001": {
+            "sep":[":"," ",","],
+            "fields":{"gateway_term":{} ,"gateway":{}, "space1":{}, "device_term":{}, "device":{}, "space2":{}, "analog_term":{}, "space3":{}, "pH":{}, "tds":{}, "bat":{}, "temperature":{}}
         },
     
-    "f2": {
-            "sep":[","," "],
-            "ids":{"id1":{} ,"id2":{}, "id3":{}},
-            "sensors":{"s1":{}, "s2":{}, "s3":{}}
-        },
+    "Dfmt8020002": {
+        "sep":[":"," ",","],
+        "fields":{"space1":{}, "gateway_term":{} ,"gateway":{}, "space2":{}, "status":{}}
+    },
 
-    "f3": {
-            "sep":[","],
-            "ids":{"id1":{} ,"id2":{}},
-            "sensors":{"s1":{}, "s2":{}}
-        }
+    "Dfmt8020003": {
+        "sep":[":"," ",","],
+        "fields":{"gateway_term":{} ,"gateway":{}, "space1":{}, "status":{}}
+    }
             
             
 }
